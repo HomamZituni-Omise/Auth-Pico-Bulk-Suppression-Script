@@ -1,0 +1,17 @@
+# OS
+.DS_Store
+
+# Secrets / local config — never commit
+.env
+*.env
+secrets*
+credentials*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Original working copy with real credentials — never commit
+auth.pico/
